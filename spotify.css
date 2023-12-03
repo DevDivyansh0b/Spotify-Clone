@@ -1,0 +1,602 @@
+*{
+    border:none;
+    margin:none;
+}
+#background{
+    color:#FFFFFF;
+    background-color:black;
+    height:560px;
+    width:auto;
+    margin:none;
+    display:flex;
+}
+#homesearch{
+    background-color:#1c1c1c;
+    color:#FFFFFF;
+    padding:15px 0px 15px 15px;
+    border-radius:7px;
+    margin:10px;
+    position:relative;
+    top:10px;
+    height:100px;
+    width:250px;
+    align-items:center;
+}
+#homesearchhome{
+    margin:15px 0px 8px 10px;
+    display:flex;
+    align-items:center;
+}
+#homesearchhomelogo{
+    color:#FFFFFF;
+    margin-right:5px;
+    align-items:center;
+    font-weight:900;
+    font-size:1.3em;
+    position:relative;
+    top:3px;
+}
+#homesearchhometext{
+    color:#FFFFFF;
+    margin-left:8px;
+    font-size:18px;
+    font-weight:700;
+    font-family: 'Lato', sans-serif;
+}
+#homesearchsearch{
+    margin:8px 0px 0px 10px;
+    display:flex;
+    align-items:center;
+}
+#homesearchsearchlogo{
+    color:white;
+    margin-right:5px;
+    font-size:1.3em;
+    position:relative;
+    top:3px;
+}
+#homesearchsearchtext{
+    color:white;
+    background-color:#1c1c1c;
+    margin-left:8px;
+    font-size:18px;
+    font-weight:700;
+    font-family: 'Lato', sans-serif;
+    width:169px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding-left:5px;
+}
+#yourlibrary{
+    background-color:#1c1c1c;
+    color:#FFFFFF;
+    padding:15px 0px 15px 15px;
+    border-radius:7px;
+    margin:10px;
+    position:relative;
+    top:10px;
+    height:330px;
+    width:250px;
+    align-items:center;
+}
+#yourlibrarytop{
+    display:flex;
+    margin:10px;
+}
+#librarylogo{
+    font-size:1.3em;
+    margin-right:5px;
+}
+#libraryplus{
+    font-size:1.3em;
+    margin-right:8px;
+    margin-left:8px;
+    font-weight:700;
+}
+#libraryarrow{
+    font-size:1.3em;
+    margin-right:8px;
+    margin-left:8px;
+    font-weight:500;
+}
+#librarytext{
+    font-size:20px;
+    font-weight:700;
+    font-family: 'Lato', sans-serif;
+    margin-left:8px;
+}
+#playlistsartists{
+    display:flex;
+    margin:10px;
+    margin-left:0px;
+}
+#playlistsartistsplaylistsbutton{
+    display:flex;
+    margin-left:5px;
+    background-color:darkslategrey;
+    color:#FFFFFF;
+    font-size:13px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    padding:8px;
+    border-radius:20px;
+}
+#playlistsartistsartistsbutton{
+    display:flex;
+    margin-left:5px;
+    background-color:darkslategrey;
+    color:#FFFFFF;
+    font-size:13px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    padding:8px;
+    border-radius:20px;
+}
+#songsplaylistscrollplaylistsong1{
+    display:flex;
+    margin:10px;
+    margin-top:15px;
+    align-items:center;
+}
+#songsplaylistscrollplaylistsong1img{
+    background-image:url(dance.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+}
+#songsplaylistscrollplaylistsong1text{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+}
+#songsplaylistscrollplaylistsong2{
+    display:flex;
+    margin:10px;
+    align-items:center;
+}
+#songsplaylistscrollplaylistsong2img{
+    background-image:url(deva.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+}
+#songsplaylistscrollplaylistsong4img{
+    background-image:url(khaabon.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+}
+#songsplaylistscrollplaylistsong2text{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+}
+#songsplaylistscrollplaylistsong3{
+    display:flex;
+    margin:10px;
+    align-items:center;
+}
+#songsplaylistscrollplaylistsong3img{
+    background-image:url(ilahi.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+}
+#songsplaylistscrollplaylistsong3text{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+}
+#songsplaylistscrollplaylistsong1text:hover{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+    text-decoration:underline;
+}
+#songsplaylistscrollplaylistsong2text:hover{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+    text-decoration:underline;
+}
+#songsplaylistscrollplaylistsong3text:hover{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+    text-decoration:underline;
+}
+#songsplaylistscrollplaylistsong4text:hover{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+    text-decoration:underline;
+}
+#songsplaylistscrollplaylistsong4{
+    display:flex;
+    margin:10px;
+    align-items:center;
+}
+#songsplaylistscrollplaylistsong1img:hover{
+    background-image:url(dance.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+    border:1px solid white;
+}
+#songsplaylistscrollplaylistsong2img:hover{
+    background-image:url(deva.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+    border:1px solid white;
+}
+#songsplaylistscrollplaylistsong3img:hover{
+    background-image:url(ilahi.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+    border:1px solid white;
+}
+#songsplaylistscrollplaylistsong4img:hover{
+    background-image:url(khaabon.jpg);
+    background-size:cover;
+    height:50px;
+    width:50px;
+    border-radius:5px;
+    margin-right:8px;
+    border:1px solid white;
+}
+#songsplaylistscrollplaylistsong4text{
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+}
+#rightbar{
+    background-color:#1c1c1c;
+    color:#FFFFFF;
+    padding:15px 0px 15px 15px;
+    border-radius:7px;
+    margin:10px 10px 0px 0px;
+    position:relative;
+    top:10px;
+    height:330px;
+    width:250px;
+    align-items:center;
+    width:950px;
+    height:470px;
+}
+#rightbartop{
+    display:flex;
+    margin:5px;
+}
+#recentlyplayedtext{
+    color:#FFFFFF;
+    font-size:30px;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+    margin-right:375px;
+}
+#rightbartoppremiumbutton{
+    display:flex;
+    margin-left:25px;
+    color:black;
+    background-color:#FFFFFF;
+    font-size:15px;
+    padding:8px;
+    padding-left:25px;
+    padding-right:5px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    border-radius:20px;
+    margin-right:10px;
+    width:130px;
+    text-align:center;
+}
+#rightbartopinstallbutton{
+    display:flex;
+    margin-left:0px;
+    background-color:black;
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    padding:8px;
+    border-radius:20px;
+    margin-right:10px
+}
+#rightbartopaccountlogo{
+    font-size:2em;
+    background-color:black;
+    color:#FFFFFF;
+    height:25px;
+    width:25px;
+    border-radius:50%;
+    padding-right:7px;
+    padding-bottom:7px;
+}
+#recentlyplayedsongs{
+    display:flex;
+}
+#recentlyplayedsongs1{
+    background-color:#181718;
+    height:250px;
+    width:200px;
+    border-radius: 10px;
+    margin:8px;
+}
+#recentlyplayedsongs2{
+    background-color:#181718;
+    height:250px;
+    width:200px;
+    border-radius: 10px;
+    margin:8px;
+}
+#recentlyplayedsongs3{
+    background-color:#181718;
+    height:250px;
+    width:200px;
+    border-radius: 10px;
+    margin:8px;
+}
+#recentlyplayedsongs4{
+    background-color:#181718;
+    height:250px;
+    width:200px;
+    border-radius: 10px;
+    margin:8px;
+}
+#recentlyplayedsongs1img{
+    background-image:url(dance.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+}
+#recentlyplayedsongs1text{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:45px;
+}
+#recentlyplayedsongs2img{
+    background-image:url(deva.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+}
+#recentlyplayedsongs2text{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:55px;
+}
+#recentlyplayedsongs3img{
+    background-image:url(ilahi.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+}
+#recentlyplayedsongs3text{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:80px;
+}
+#recentlyplayedsongs4img{
+    background-image:url(khaabon.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+}
+#recentlyplayedsongs4img:hover{
+    background-image:url(khaabon.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+    border:2px solid #FFFFFF;
+}
+#recentlyplayedsongs1img:hover{
+    background-image:url(dance.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+    border:2px solid #FFFFFF;
+}
+#recentlyplayedsongs3img:hover{
+    background-image:url(ilahi.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+    border:2px solid #FFFFFF;
+}
+#recentlyplayedsongs2img:hover{
+    background-image:url(deva.jpg);
+    background-size:cover;
+    width:170px;
+    height:170px;
+    border-radius:15px;
+    position:relative;
+    top:15px;
+    left:15px;
+    border:2px solid #FFFFFF;
+}
+#recentlyplayedsongs4text{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:18px;
+}
+#recentlyplayedsongs4text:hover{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:18px;
+    text-decoration:underline;
+}
+#recentlyplayedsongs1text:hover{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:45px;
+    text-decoration:underline;
+}
+#recentlyplayedsongs2text:hover{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:55px;
+    text-decoration:underline;
+}
+#recentlyplayedsongs3text:hover{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:200;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+    top:35px;
+    left:80px;
+    text-decoration:underline;
+}
+#playbar{
+    margin-top:80px;
+    border-radius:80px;
+    width:843px;
+    background-color:black;
+    margin-left:10px;
+    height:80px;
+}
+#playbarprogressbar{
+    display:flex;
+}
+#playbarshufflelogo{
+    padding:0px;
+    margin:8px;
+    padding-top:0px;
+    font-size:2em;
+    color:white;
+    align-items:center;
+    position:relative;
+    top:-2px;
+    left:280px;
+}
+#playbarpreviouslogo{
+    padding:0px;
+    margin:8px;
+    padding-top:0px;
+    font-size:2em;
+    color:white;
+    align-items:center;
+    position:relative;
+    top:-2px;
+    left:280px;
+}
+#playbarpauselogo{
+    padding:0px;
+    margin:8px;
+    padding-top:0px;
+    font-size:2em;
+    color:white;
+    align-items:center;
+    position:relative;
+    top:-2px;
+    left:280px;
+}
+#playbarnextlogo{
+    padding:0px;
+    margin:8px;
+    padding-top:0px;
+    font-size:2em;
+    color:white;
+    align-items:center;
+    position:relative;
+    top:-2px;
+    left:280px;
+}
+#playbarrestartlogo{
+    padding:0px;
+    margin:8px;
+    padding-top:0px;
+    font-size:2em;
+    color:white;
+    align-items:center;
+    position:relative;
+    top:-2px;
+    left:280px;
+}
+#myprogressbar{
+    width:300px;
+    color:white;
+    position:relative;
+    left:250px;
+}
